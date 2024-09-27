@@ -49,6 +49,6 @@ export default defineConfig({
     contentLayer: true,
   },
 
-  output: "server",
+  output: "hybrid",
   adapter: vercel(),
 });

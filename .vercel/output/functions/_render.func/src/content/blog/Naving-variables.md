@@ -1,7 +1,7 @@
 ---
+title: "On the Nomenclature of Variables"
 author: Andres Alcocer  
 pubDatetime: 2022-06-09T14:30:00.000Z
-title: On the Nomenclature of Variables
 tags: 
 	- Naming variables
 description: How to effectively name variables
