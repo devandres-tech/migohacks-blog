@@ -133,7 +133,20 @@ const structuredData = {
     }
 
     <ViewTransitions />
+    <!-- Google tag (gtag.js) -->
+    <script
+      type="text/partytown"
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-YJR5Q6KFVV"></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "G-YJR5Q6KFVV");
+    </script>
     <script is:inline src="/toggle-theme.js" async></script>
   </head>
   <body>
