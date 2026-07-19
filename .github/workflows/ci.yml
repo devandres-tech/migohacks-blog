@@ -1,42 +1,28 @@
 name: CI
 
 on:
+  push:
+    branches: [main]
   pull_request:
-    types:
-      - opened
-      - edited
-      - synchronize
-      - reopened
-  workflow_call:
+    branches: [main]
+
+permissions:
+  contents: read
 
 jobs:
   build:
-    name: Code standards & build
+    name: Lint & build
     runs-on: ubuntu-latest
-    timeout-minutes: 3
-
-    strategy:
-      matrix:
-        node-version: [18.x]
-
     steps:
-      - name: "☁️ Checkout repository"
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: "🔧 Setup Node.js ${{ matrix.node-version }}"
-        uses: actions/setup-node@v4
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
+          node-version: 22
+          cache: pnpm
 
-      - name: "📦 Install dependencies"
-        run: npm ci
+      - run: pnpm install --frozen-lockfile
 
-      - name: "🔎 Lint code"
-        run: npm run lint
-
-      - name: "📝 Checking code format"
-        run: npm run format:check
-
-      - name: "🚀 Build the project"
-        run: npm run build
+      - run: pnpm build
