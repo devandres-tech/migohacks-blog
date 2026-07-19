@@ -849,6 +849,13 @@ const giscusThemes = import.meta.env.PROD
 	</script>
 )}
 <script>
+	import mediumZoom from "medium-zoom";
+
+	mediumZoom(".post-article img", {
+		background: "var(--paper)",
+		margin: 24,
+	});
+
 	const scrollBtn = document.getElementById("to-top-btn") as HTMLButtonElement | null;
 	const heroEl = document.getElementById("blog-hero") as HTMLDivElement | null;
 	if (scrollBtn && heroEl) {
