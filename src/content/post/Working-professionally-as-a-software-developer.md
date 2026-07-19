@@ -3,9 +3,6 @@ title: "What I've learned after working professionally as a software developer f
 publishDate: 2024-09-26
 description: "Stepping back and reflecting over my years working professionally as a software developer. The good and the bad."
 tags: [ software-development, experience ]
-coverImage:
-  src: ./_assets/developer-morale-graph.png
-  alt: "A graph depicting developer morale over time."
 ---
 
 It has been more than four years since I landed my first role as a software developer. I still remember not knowing what to expect and feeling anxious about whether I was "good" enough (the dreaded "impostor syndrome," which never really goes away). As with anything in life, reality turned out to be quite different from my expectations.
@@ -19,7 +16,7 @@ And yes, things are always breaking. Not because your code is terrible (though i
 Here's a graph depicting the above scenario:
 
 ![A graph depicting developer morale over time.](./_assets/developer-morale-graph.png)
-
+</br>
 SOFT SKILLS—yes, don't be an ass to those who are less experienced than you. You might be the best programmer the world has ever seen, but if you can't collaborate well with others, you'll inevitably hurt your team's performance, and your manager won't be happy about it. Remember, you are REPLACEABLE. There is always someone smarter than you. So please, learn to be empathetic and guide others toward growth.
 
 Not everything is perfect, and sometimes management will suck. You'll often question decisions from higher-ups, and while you may not like it, there’s little you can do about it. Learn to distance yourself from your emotions and adopt a pragmatic mindset. Focus on providing solutions rather than complaints. After all, engineering is a means to an end.

@@ -3,13 +3,10 @@ title: "The AI takeover"
 publishDate: 2025-12-30
 description: "My thoughts on this current AI boom in the software development industry"
 tags: [ software-development, claude-code, llms, ai ]
-coverImage:
-  src: ./_assets/laptop.png
-  alt: "A laptop open to a code editor on a wooden café table, beside a water bottle."
 ---
 
 ![A laptop open to a code editor on a café table.](./_assets/laptop.png)
-
+</br>
 As I sit in a Panera bread going through a Claude Code CLI tutorial, I start to get excited about the potential these AI tools can achieve. It's as if a new power has been unlocked and it's waiting for us to bring life to projects undreamed of. As I ponder more into the idea of how AI is transforming the software development industry, I can't say if this is a good thing or a bad thing...we can all agree that there is a mandate in the industry to use AI as much as possible in our workflows. At the end of the day, then, who will be in control?
 
 I think it depends...on how you use AI. With the emergence of "vibe coding", we have romanticized the idea of letting AI do all of the work for us, while we sit back and watch Netflix while scrolling through TikTok. And it all can be done in a matter of minutes. No more searching deep into StackOverflow posts, best practices seem to be out of the door. There's no need to even attempt to learn new patterns and architectures. Why should I if AI can take care of everything for me?
